@@ -1,0 +1,123 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial;
+    background-color: rgb(248, 241, 231);
+}
+header{
+    background-color: rgb(56, 37, 27);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}
+.cafe-name
+{
+    color: rgb(229, 182, 111);
+    font-weight: bold;
+    font-size: 15px;
+}
+.cafe-name span{
+    margin-left: 5px;
+}
+.main-menu
+{
+    display: flex;
+    color: white;
+    font-size: 12px;
+}
+.main-menu div{
+    margin: 10px;
+}
+.welcome-src
+{
+    background-color: rgb(101, 67, 45);
+    padding: 30px;
+    text-align: center;
+}
+.welcome-p
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.para
+{
+    color: rgb(229, 182, 111);
+    font-size: 11px;
+}
+.heading2
+{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(101, 67, 45);
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 10px;
+}
+.emoji
+{
+    font-size: 30px;
+}
+.coffe-name
+{
+    color: rgb(101, 67, 45);
+    font-size: 15px;
+}
+.desc
+{
+    font-size: 10px;
+}
+.price
+{
+    color: rgb(229, 182, 111);
+    font-size: 12px;
+}
+.offer
+{
+    text-align: center;
+    background-color: rgb(229, 182, 111);
+    padding: 15px;
+    line-height: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(56, 37, 27);
+}
+.offer-quote
+{
+    font-weight: bold;
+}
+.offer-para
+{
+    font-size: 12px;
+}
+.footer
+{
+    text-align: center;
+    background-color: rgb(56, 37, 27);
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+}
